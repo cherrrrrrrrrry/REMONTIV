@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.remontiv.ru$ [NC]
+RewriteRule ^(.*)$ https://remontiv.ru/$1 [R=301,L]

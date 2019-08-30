@@ -1,0 +1,248 @@
+@font-face {
+	font-family: 'Nikoleta';
+	src: url(../fonts/nikoleta/nikoleta.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	font-family: 'Nikoleta';
+	font-weight: lighter;
+}
+
+*::selection {
+	background-color: rgba(255, 0, 54, .2);
+}
+
+h2 {
+	font-size: 2em;
+	color: #222;
+	cursor: default;
+}
+
+h3 {
+	line-height: 1.5em;
+	cursor: default;
+}
+
+hr {
+	border: none;
+	height: 3px;
+	background-color: #FF0036;
+	margin: 1em auto;
+	width: 90%;
+}
+
+hr.separate1 {
+	width: 2.5%;
+}
+
+hr.separate2 {
+	width: 5%;
+	margin: 1em 95%;
+}
+
+p {
+	line-height: 1.5em;
+	font-size: 1.25em;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.btn {
+	color: #FF0036;
+	border: 3px solid #FF0036;
+	padding: 1em 1.5em;
+	display: block;
+	width: 50%;
+	margin: 1em auto;
+	text-align: center;
+	transition: .1s;
+	border-radius: .25em;
+	font-weight: bold;
+}
+
+a.btn:hover {
+	background-color: #FF0036;
+	color: white;
+}
+
+img.icon {
+	width: 2.5em;
+	margin: 0 .5em;
+}
+
+.block {
+	padding: 5em 0;
+	text-align: center;
+	border-top: 5em solid transparent;
+	margin-top: -8.5em;
+	background-clip: padding-box;
+	color: #222;
+	width: 100% !important;
+	overflow: hidden;
+}
+
+.block-clr {
+	background-color: #222;
+	color: white;
+}
+
+.block-clr h2 {
+	color: #fff;
+}
+
+.block-clr hr {
+	background-color: white;
+}
+
+.block-img {
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-blend-mode: overlay;
+	background-color: rgba(0, 0, 0, .75);
+	color: #FF0036;
+}
+
+.wrapper {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.wrapper-bg {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.d-block {
+	display: block;
+}
+
+.d-flex,
+.items {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.item {
+	margin: 0 .5em;
+}
+
+.clr {
+	color: #FF0036;
+}
+
+jdiv {
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	align-items: center;
+	padding: 1.5em 0;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	z-index: 30;
+	border-bottom: 1px solid #FF0036;
+}
+
+header .logo img {
+	color: #FF0036;
+	width: 7em;
+}
+
+header .main-menu a {
+	padding: .5em;
+	margin: 0 .5em;
+	color: #222;
+	transition: .1s;
+	font-size: 1em;
+}
+
+header .main-menu a:after {
+	content: "/";
+	padding-left: 1.5em;
+	color: #222;
+}
+
+header .main-menu a.menu-trigger:after {
+	padding-left: 0;
+	content: "";
+}
+
+header .main-menu a[href="#contacts"]:after {
+	content: "";
+}
+
+header .main-menu a:hover {
+	color: #FF0036;
+}
+
+header .main-menu a.menu-trigger {
+	display: none;
+}
+
+header .main-menu a.menu-trigger {
+	display: none;
+}
+
+header .main-menu a.menu-trigger:after {
+	content: "";
+}
+
+footer {
+	padding: 2.5em 0;
+	background-color: #222;
+	color: white;
+	text-align: center;
+}
+
+footer .footer-menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 0 1em 0;
+}
+
+footer .footer-menu a {
+	color: white;
+	padding: .5em;
+	margin: 0 1em;
+}
+
+footer .footer-menu a:hover {
+	color: #FF0036;
+}
+
+footer a.btn {
+	width: 10%;
+}
+
+footer .d-flex {
+	justify-content: center;
+}
+
+footer .d-flex a {
+	margin: 0 1em;
+	color: white;
+	line-height: 2em;
+}
+
+footer span:last-child {
+	display: block;
+	line-height: 1.5em;
+}
